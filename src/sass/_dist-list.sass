@@ -1,0 +1,27 @@
+.distance-lists
+	display: flex
+	padding: 0 10px
+	.distance-list
+		width: 50%
+		h2
+			font-size: 14px
+			font-weight: bold
+		ol
+			li
+				display: flex
+				.distance,
+				.name
+					display: block
+					font-size: 12px
+				.distance
+					min-width: 45px
+					padding-right: 5px
+					text-align: right
+					&::after
+						content: "m"
+				.name
+					flex: 1
+					overflow: hidden
+					padding-right: 10px
+					white-space: nowrap
+					text-overflow: ellipsis

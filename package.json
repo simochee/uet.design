@@ -1,0 +1,29 @@
+{
+  "name": "uet.design",
+  "version": "1.0.0",
+  "description": "uet.design",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"gulp dev\" \"live-server --port=8080 --open=docs --no-browser\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simochee/uet.design.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simochee/uet.design/issues"
+  },
+  "homepage": "https://github.com/simochee/uet.design#readme",
+  "devDependencies": {
+    "concurrently": "^3.1.0",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-pug": "^3.1.0",
+    "gulp-sass": "^2.3.2",
+    "postcss-cssnext": "^2.8.0"
+  }
+}

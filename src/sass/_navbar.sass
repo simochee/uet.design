@@ -1,0 +1,34 @@
+.navbar
+	$height: 50px
+	position: relative
+	width: 100%
+	height: $height
+	&.navbar-primary
+		background: #4DD0E1
+		color: #fff
+		.icon
+			color: #fff
+	.center
+		margin: 0 auto
+	.right
+		position: absolute
+		top: 0
+		right: 0
+	.bland,
+	.navbar-btn-icon
+		text-align: center
+	.bland
+		height: $height
+		font-family: 'Yantramanav', sans-serif
+		font-weight: 400
+		font-size: 26px
+		line-height: $height
+	.navbar-btn-icon
+		$margin: 10px
+		height: $height - $margin
+		width: $height - $margin
+		margin: $margin / 2
+		line-height: $height - $margin
+		border-radius: 100%
+		.icon
+			font-size: 18px
