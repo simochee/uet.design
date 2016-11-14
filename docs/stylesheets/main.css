@@ -20,12 +20,14 @@ button, input, textarea {
 .navbar {
   position: relative;
   width: 100%;
-  height: 40px; }
-  .navbar.navbar-primary {
-    background: #4DD0E1;
-    color: #fff; }
-    .navbar.navbar-primary .icon {
-      color: #fff; }
+  height: 40px;
+  border-bottom: 1px solid; }
+  .navbar.navbar-default {
+    background: #fff;
+    border-color: #eee;
+    color: #333; }
+    .navbar.navbar-default .icon {
+      color: #333; }
   .navbar .center {
     margin: 0 auto; }
   .navbar .right {
@@ -38,7 +40,7 @@ button, input, textarea {
   .navbar .bland {
     height: 40px;
     font-family: 'Yantramanav', sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 24px;
     line-height: 40px; }
   .navbar .navbar-btn-icon {
